@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(20deg,#000000,#346bb9);
+}
+.calculator{
+    border: 1px solid #486ebb;
+    padding: 20px;
+    border-radius: 16px;
+    background-color: transparent;
+    box-shadow: 0px 3px 15px;
+}
+input{
+    width: 300px;
+    border: none;
+    margin: 10px;
+    padding: 24px;
+    background: transparent;
+    box-shadow: 0px 3px 15px;
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    border-radius: 15px;
+
+}
+input::placeholder{
+    color: aliceblue;
+}
+button{
+    border: none;
+    width: 58px;
+    margin: 10px;
+    padding: 12px;
+    border-radius: 12px;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1);
+    cursor: pointer;
+
+
+}
+.eqlBTN{
+    background-color: grey;
+}
+.operator{
+    color: red;
+}
